@@ -38,24 +38,27 @@ Obter segunda via de contas, solicitação de serviços e solicitação de informaçõe
 O Maven é uma ferramenta para gerenciamento das bibliotecas e plug-ins de
 um ou mais repositórios de forma dinâmica utilizando um XML para descrever o
 projeto de software sendo construído.
-Java API for Telegram
+
+#Java API for Telegram
 O Java API for Telegram possibilita o desenvolvimento de um bot personalizado conforme a necessidade do projeto.
 Website da API:
-(https://oss.sonatype.org/content/repositories/releases/com/github/pengrad/java-telegram-bot-api/2.1.2/)
+[https://oss.sonatype.org/content/repositories/releases/com/github/pengrad/java-telegram-bot-api/2.1.2/](https://oss.sonatype.org/content/repositories/releases/com/github/pengrad/java-telegram-bot-api/2.1.2/)
 # Prevlayer
 Api de persistência usado para persistir os dados do usuário/cliente em arquivo conforme documento de requisitos.
 
-(http://prevlayer.org/)
-(https://mvnrepository.com/artifact/org.prevayler)
+[http://prevlayer.org/](http://prevlayer.org/)
+
+[https://mvnrepository.com/artifact/org.prevayler](https://mvnrepository.com/artifact/org.prevayler)
 
 # Java Logging
 Ferramenta padrão de log do java em Console.
-(https://docs.oracle.com/javase/7/docs/api/java/util/logging/package-summary.html)
+
+[https://docs.oracle.com/javase/7/docs/api/java/util/logging/package-summary.html](https://docs.oracle.com/javase/7/docs/api/java/util/logging/package-summary.html)
 
 
 # 3. Estrutura de pacotes do Projeto
 
- - ![Pacotes](docs/diagramas/estrutura pacotes.png)
+ ![Pacotes](docs/diagramas/estrutura pacotes.png)
  
  fiap.telegram
  - Pacote principal com os arquivos do projeto.
@@ -94,7 +97,7 @@ Ferramenta padrão de log do java em Console.
  
  - Dados do Bot
 
- - ![Dados Bot](docs/diagramas/info-bot.png)
+ ![Dados Bot](docs/diagramas/info-bot.png)
  
 # 5. Utilização do Bot
 
@@ -130,7 +133,7 @@ Ferramenta padrão de log do java em Console.
 
 A solicitação é feita através do endereço [Acesse aqui](https://telegram.me/BotFather) mostrado a seguir.
 
- - ![Classes](docs/diagramas/botfather.png)
+ ![BotFather](docs/diagramas/botfather.png)
 
 
 # 6. Resumo técnico de funcionamento
@@ -151,11 +154,11 @@ Cada comando corresponde a uma funcionalidade do sistema, verificando em qual et
 
 # Diagramas de Classe
 
- - ![Classes](docs/diagramas/classes.png)
+ ![Classes](docs/diagramas/classes.png)
  
 # Diagrama de Sequência
  
- - ![Sequencia](docs/diagramas/diagrama sequencia.png)
+ ![Sequencia](docs/diagramas/diagrama sequencia.png)
  
  
 # Executando o projeto
@@ -173,12 +176,13 @@ No diretório **src** no pacote **br.fiap.telegram** existe um arquivo chamado **
 
 - Blog Medium – Prof - Michel Fernandes 
 
-  [LinkBlog](https://medium.com/@michelpf/criando-bots-do-telegram-com-api-java-64e921762b5f)
+  [https://medium.com/@michelpf/criando-bots-do-telegram-com-api-java-64e921762b5f](https://medium.com/@michelpf/criando-bots-do-telegram-com-api-java-64e921762b5f)
 
 
 - Telegram Documentação oficial
 
-  [LinkTelegram1](https://core.telegram.org/bots)	
-  [LinkTelegram2](https://core.telegram.org/bots/api)
+  [https://core.telegram.org/bots](https://core.telegram.org/bots)
+  	
+  [https://core.telegram.org/bots/api](https://core.telegram.org/bots/api)
 
  
