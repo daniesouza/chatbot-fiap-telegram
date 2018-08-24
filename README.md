@@ -5,7 +5,7 @@ Agosto de 2018.
 FIAP
 
 
-#Integrantes 
+# Integrantes 
 
 Daniel Souza de Lima RM331883
 
@@ -15,7 +15,7 @@ Jean Pierre de Brito RM331429
 
 Luiz Felipe Moreira do Amaral RM330342
 
-#Objetivo
+# Objetivo
 
 O objetivo desta atividade é criar um bot Telegram que simule um banco virtual, e seja
 possível implementar os comportamentos basicos de um banco virtual como depositar,sacar,abrir conta,etc...
