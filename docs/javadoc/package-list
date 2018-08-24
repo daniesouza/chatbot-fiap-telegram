@@ -1,0 +1,9 @@
+br.fiap.telegram
+br.fiap.telegram.bot
+br.fiap.telegram.command
+br.fiap.telegram.comparator
+br.fiap.telegram.constants
+br.fiap.telegram.manager
+br.fiap.telegram.model
+br.fiap.telegram.prevayler
+br.fiap.telegram.utils

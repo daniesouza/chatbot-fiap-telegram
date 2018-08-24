@@ -16,7 +16,7 @@ import java.util.concurrent.Executors;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Bot extends Thread {
+public class Bot{
 	
 	private static final Logger LOGGER = Logger.getGlobal();
 
@@ -80,7 +80,7 @@ public class Bot extends Thread {
 			}
 
 			try {
-				sleep(1000);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
