@@ -6,6 +6,7 @@ FIAP
 
 
 #Integrantes 
+
 Daniel Souza de Lima RM331883
 
 David Santos Vasconcelos RM330191
@@ -15,6 +16,7 @@ Jean Pierre de Brito RM331429
 Luiz Felipe Moreira do Amaral RM330342
 
 #Objetivo
+
 O objetivo desta atividade é criar um bot Telegram que simule um banco virtual, e seja
 possível implementar os comportamentos basicos de um banco virtual como depositar,sacar,abrir conta,etc...
 
@@ -133,11 +135,17 @@ A solicitação é feita através do endereço [Acesse aqui](https://telegram.me/BotF
 
 # 6. Resumo técnico de funcionamento
 
-A partir da classe Bot recuperamos as mensagens represadas da API do Telegram, verificamos se o cliente já está salvo através da classe SessionManager que por sua vez, verifica e grava um cliente através da camada de Prevayler.
+A partir da classe Bot recuperamos as mensagens represadas da API do Telegram, verificamos se o cliente já está salvo através da classe SessionManager que por sua vez,
+ verifica e grava um cliente através da camada de Prevayler.
 
- 	Na camada de command, instanciamos um comando através da CommandFactory. que verifica se o comando vindo do através da digitação do usuário é válido, ou seja, se está listado no Enum de comandos ComandoEnum e o instância para ser executado. 
+Na camada de command, instanciamos um comando através da CommandFactory, que verifica se o comando 
+
+vindo através da digitação do usuário é válido, ou seja, se está listado no Enum de comandos ComandoEnum e o instância para ser executado. 
  	
-Cada comando corresponde a uma funcionalidade do sistema, verificando em qual etapa o cliente está, devolve uma informação para a Interface Comando e grava o estado a cada interação com o usuário, no final, retorna as opções de menu principal para a API do Telegram e devolve o resultado para o usuário.
+Cada comando corresponde a uma funcionalidade do sistema, verificando em qual etapa o
+
+ cliente está, devolve uma informação para a Interface Comando e grava o estado a cada interação com o usuário, no final, 
+ retorna as opções de menu principal para a API do Telegram e devolve o resultado para o usuário.
 
 
 
