@@ -58,7 +58,7 @@ Ferramenta padrão de log do java em Console.
 
 # 3. Estrutura de pacotes do Projeto
 
- ![Pacotes](docs/diagramas/estrutura pacotes.png)
+ ![Pacotes](docs/diagramas/estrutura-pacotes.png)
  
  fiap.telegram
  - Pacote principal com os arquivos do projeto.
@@ -158,7 +158,7 @@ Cada comando corresponde a uma funcionalidade do sistema, verificando em qual et
  
 # Diagrama de Sequência
  
- ![Sequencia](docs/diagramas/diagrama sequencia.png)
+ ![Sequencia](docs/diagramas/diagrama-sequencia.png)
  
  
 # Executando o projeto
