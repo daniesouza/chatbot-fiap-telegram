@@ -5,16 +5,6 @@ Agosto de 2018.
 FIAP
 
 
-# Integrantes 
-
-Daniel Souza de Lima RM331883
-
-David Santos Vasconcelos RM330191
-
-Jean Pierre de Brito RM331429
-
-Luiz Felipe Moreira do Amaral RM330342
-
 # Objetivo
 
 O objetivo desta atividade é criar um bot Telegram que simule um banco virtual, e seja
@@ -165,7 +155,6 @@ Cada comando corresponde a uma funcionalidade do sistema, verificando em qual et
 
 No diretório **src** no pacote **br.fiap.telegram** existe um arquivo chamado **Main.java** . Abra esse arquivo e execute **Run**
 
-
  
 # Javadoc
 
@@ -173,10 +162,6 @@ No diretório **src** no pacote **br.fiap.telegram** existe um arquivo chamado **
 
 
 # Referências
-
-- Blog Medium – Prof - Michel Fernandes 
-
-  [https://medium.com/@michelpf/criando-bots-do-telegram-com-api-java-64e921762b5f](https://medium.com/@michelpf/criando-bots-do-telegram-com-api-java-64e921762b5f)
 
 
 - Telegram Documentação oficial
